@@ -8,16 +8,30 @@ body {
         -webkit-transform: translate(0px, 100px);
         background-color: beige;
     }
-    25% {
+    12.5% {
         -webkit-transform: translate(150px, 100px);
     }
-    50% {
+    25% {
         -webkit-transform: translate(150px, 0px) rotateY(180deg);
         background-color: gray;
     }
-    100% {
+    37.5% {
         -webkit-transform: translate(300px, 100px);
     }
+    50% {
+        -webkit-transform: translate(200px, 200px) rotateX(180deg);
+    }
+    67.5% {
+        -webkit-transform: translate(100px, 100px) rotateY(180deg);
+        background-color: black;
+    }  
+    75% {
+        -webkit-transform: translate(200px, 50px) 
+    }
+    100% {
+        -webkit-transform: translate(0px, 100px) rotateX(180deg);
+    }
+
 }
 
 #panda {
@@ -25,7 +39,7 @@ body {
     width: 100px;
     height: 100px;
     background: white;
-    -webkit-mask-image: url("file:///Users/gwonyongheon/Desktop/empty/img/cartoonish-panda-hi (1).png");
+    -webkit-mask-image: url("gwonyongheon/3dcss/image/panda.png");
     -webkit-mask-size: 100px 100px;
     -webkit-transform: translate(0px, 100px);
     -webkit-animation: anim 3s infinite;
