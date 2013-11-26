@@ -1,4 +1,3 @@
-console.log('This would be the main JS file.');
 var scene;
 
 var init = function() {
@@ -10,7 +9,7 @@ window.onload = function() {
 };
 
 window.onmousemove = function(e) {
-    var dx = window.innerWidth / 0.5 - e.pageX;
+    var dx = e.pageX;
     var s = 'rotateY(' + dx + 'deg)'; 
     scene.style['-webkit-transform'] = s;
 };
