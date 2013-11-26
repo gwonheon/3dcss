@@ -9,7 +9,7 @@ window.onload = function() {
 };
 
 window.onmousemove = function(e) {
-    var dx = e.pageX;
+    var dx = window.innerWidth / 2 - e.pageX;
     var s = 'rotateY(' + dx + 'deg)'; 
     scene.style['-webkit-transform'] = s;
 };

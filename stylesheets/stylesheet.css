@@ -25,10 +25,10 @@ body {
     width: 100px;
     height: 100px;
     background: cyan;
-    -webkit-mask-image: url(../3dcss/img/panda.png);
-    -webkit-mask-size: 100px 100px;
-    -webkit-transform: translate(0px, 100px);
-    -webkit-animation: anim 3s infinite;
+-webkit-mask-image:url(../images/panda.png);
+-webkit-mask-size: 100px 100px;
+-webkit-transform: translate(0px, 100px);
+-webkit-animation: anim 3s infinite;
 }
 
 #stage {
