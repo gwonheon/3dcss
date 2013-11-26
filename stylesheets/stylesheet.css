@@ -9,7 +9,7 @@ body {
         background-color: red;
     }
     25% {
-        -webkit-transform: translate(150px, 100px);
+        -webkit-transform: translate(150px, 100px);3
     }
     50% {
         -webkit-transform: translate(150px, 0px) rotateY(180deg);
@@ -25,14 +25,14 @@ body {
     width: 100px;
     height: 100px;
     background: cyan;
-    -webkit-mask-image: url(../img/panda.png);
+    -webkit-mask-image: url(../3dcss/img/panda.png);
     -webkit-mask-size: 100px 100px;
     -webkit-transform: translate(0px, 100px);
     -webkit-animation: anim 3s infinite;
 }
 
 #stage {
-    position: relative; /*ì¤‘ìš”*/
+    position: relative;
     margin: auto;
     background-color: orange;
     width: 400px;
