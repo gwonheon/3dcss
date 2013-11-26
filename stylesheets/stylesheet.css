@@ -44,7 +44,6 @@ body {
     position: absolute;
     width: 400px;
     height: 300px;
-    /* -webkit-transform: rotateX(-10deg) rotateY(20deg); */
     -webkit-transform-style: preserve-3d;
 }
 
